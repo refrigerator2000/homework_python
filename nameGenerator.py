@@ -7,3 +7,6 @@ def names(z,x,c,v):
         r = r + 1
 for i in names(["Ivan", "Andrey", "Vika", "Alexey"],[".Yoda", ".Beta", ".Indev", ".Pop"],[".V", ".E", ".N", ".A"],10):
     print(i)
+
+    
+    
