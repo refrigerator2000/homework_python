@@ -8,15 +8,15 @@ a = strk.split()
 def StrkList(a):
     uu = 0; ll = 0; bb = 0
     for i in range(len(a)):
-        b = 0; l = 0
+        u = 0; l = 0
         for ii in range(len(a[i])):
             if a[i][ii].isupper():
-                b +=1
+                u +=1
             else:
                 l += 1
-        if b > l:
+        if u > l:
             uu +=1
-        elif b < l:
+        elif u < l:
             ll += 1
         else:
             bb += 1
