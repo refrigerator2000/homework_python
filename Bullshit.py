@@ -19,7 +19,7 @@ class Bullshit:
             newmat.append(b)
         return newmat
 
-matrix = Bullshit([[1, 7, 2], [0, 5, 5], [0, 0, 9], [0, 0, 0]])
+matrix = Bullshit([[1, 7, 2], [0, 5, 5], [0, 0, 9], [0, 0]])
 try:
     print(matrix.transpone())
 except:

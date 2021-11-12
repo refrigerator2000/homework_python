@@ -1,5 +1,9 @@
 
-strk = "THE man was on HIS way to a camp near HENDERSON Creek. His friends were already there. He expected to reach Henderson Creek by six o’clock that evening. It would be dark by then. His friends would have a fire and hot food ready for him."
+strk = "THE man was on HIS way to a camp near HENDERSON Creek.\
+    His friends were already there.\
+        He expected to reach Henderson Creek by six o’clock that evening.\
+            It would be dark by then.\
+                His friends would have a fire and hot food ready for him."
 a = strk.split()
 def StrkList(a):
     uu = 0; ll = 0; bb = 0
